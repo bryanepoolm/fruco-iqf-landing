@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.vue";
+import About from "../components/About.vue";
+import Process from "../components/Process.vue";
+import Advantages from "../components/Advantages.vue";
+import ContactForm from "../components/ContactForm.vue";
+---
+
+<Layout title="Fruco | Frutas Congeladas IQF">
+	<main>
+		<Hero client:load />
+		<About client:visible />
+		<Process client:visible />
+		<Advantages client:visible />
+		<ContactForm client:visible />
+	</main>
+
+	<footer class="bg-fruco-green-dark text-white py-8 text-center">
+		<p>
+			&copy; {new Date().getFullYear()} Fruco IQF Corporation. Todos los derechos
+			reservados.
+		</p>
+	</footer>
+</Layout>
