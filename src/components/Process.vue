@@ -14,7 +14,7 @@
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div class="relative h-96 rounded-2xl overflow-hidden shadow-2xl group">
           <img 
-            src="/assets/detalle-servicios.jpeg" 
+            src="/assets/iqf-con-marca-agua.png" 
             alt="Proceso IQF" 
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
           />
