@@ -11,18 +11,7 @@
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-12 items-center">
-        <div class="relative h-96 rounded-2xl overflow-hidden shadow-2xl group">
-          <img 
-            src="/assets/iqf-con-marca-agua.png" 
-            alt="Proceso IQF" 
-            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-          <div class="absolute bottom-6 left-6 text-white">
-            <p class="font-semibold text-lg">Calidad Certificada</p>
-          </div>
-        </div>
+      <div class="grid md:grid-cols-1 gap-12 items-center">
 
         <div class="space-y-8">
           <div class="flex gap-4 items-start p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border-l-4 border-fruco-yellow">
